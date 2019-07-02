@@ -1,0 +1,116 @@
+//---- Custom App Variables -------
+
+//Theme default colors:-
+$primary: #283593;
+$secondary:rgba(0, 0, 0, 0.54);
+
+$success: #28a745;
+$danger:#DE3F3F;
+$warning:#ffc107;
+$info:#17a2b8;
+
+$transparent:transparent;
+$dark-grey:rgba(0, 0, 0, 0.7);
+$dark:rgba(0, 0, 0, 0.87);
+
+$active:#FF5722;
+$black:#000000;
+$black-light:#212121;
+
+$base:#fff;
+$grey:#f3f3f4;
+$grey2:#f1f1f1;
+$border:#eceeef;
+
+//font-family:-
+$roboto:'Roboto', sans-serif;
+
+//base style:-
+$html-font-size: 16px;
+
+//font-weight:-
+$font-weight-light:300 !default;
+$font-weight-base: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-italic:italic;
+
+//body style:-
+$body-bg:$grey;
+$body-color:$dark;
+$font-size-body:1rem !default;//16px
+$line-height:1 !default;
+
+//heading font sizes:-
+$font-size-h1: 3.25rem !default;//52px
+$font-size-h2: 2.813rem !default;//45px
+$font-size-h3: 2.125rem !default;//34px
+$font-size-h4: 1.5rem !default;//24px
+$font-size-h5: 1.25rem !default;//20px
+$font-size-h6: 1rem !default;//16px
+
+//heading line-height :-
+$line-height-h1:3.75rem !default;//60px
+$line-height-h2:3rem !default;//48px
+$line-height-h3:2.5rem !default;//40px
+$line-height-h4:2rem !default;//32px
+$line-height-h5:1.75rem !default;//28px
+$line-height-h6:1.5rem !default;//24px
+
+//heading font color:-
+$h1-font-color:$dark !default;//black
+$h2-font-color:$dark !default;//black
+$h3-font-color:$dark !default;//black
+$h4-font-color:$dark !default;//black
+$h5-font-color:$dark !default;//black
+$h6-font-color:$dark !default;//black
+
+//paragraph :-
+$font-size-p:0.875rem !default;//14px
+$line-height-p:1.25rem !default;//20px
+$font-color-p:$dark-grey;
+
+//Page Title
+$page-title-bg-image:url("../../assets/images/page-title-bar.jpg");
+$page-title-padding:7rem 0;
+$page-title-color:$base;
+
+//box-shadow
+$box-shadow:0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.2);
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge((
+        0: 0,
+        5: ($spacer * .3125),
+        10: ($spacer * .625),
+        15: ($spacer * .9375),
+        20: ($spacer * 1.25),
+        25: ($spacer * 1.5625),
+        30: ($spacer * 1.875),
+        40: ($spacer * 2.5),
+        50: ($spacer * 3.125),
+        60: ($spacer * 3.75)
+  ),
+        $spacers
+);
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 600px,
+        md: 960px,
+        lg: 1280px,
+        xl: 1920px
+) !default;
+

@@ -1,0 +1,1221 @@
+{
+   "banner_one": [
+      {
+         "path": "/shop",
+         "title": "big sale",
+         "subtitle": "women's summer collection",
+         "thumb": "slider-1.jpg"
+      },
+      {
+         "path": "/shop",
+         "title": "50% off",
+         "subtitle": "men's winter collection",
+         "thumb": "slider-2.jpg"
+      },
+      {
+         "path": "/shop",
+         "title": "today's special",
+         "subtitle": "40% sale on jackets",
+         "thumb": "slider-3.jpg"
+      }
+   ],
+   "banner_two": [
+      {
+         "path": "/shop",
+         "subtitle": "new arrival",
+         "title": "biggest sale",
+         "offer": "50%",
+         "sup": "flat off",
+         "thumb": "home2-slider-1.jpg"
+      },
+      {
+         "path": "/shop",
+         "subtitle": "women's special",
+         "title": "winter sale",
+         "offer": "40%",
+         "sup": "off",
+         "thumb": "home2-slider-2.jpg"
+      },
+      {
+         "path": "/shop",
+         "subtitle": "special deal",
+         "title": "mens collection",
+         "offer": "30%",
+         "sup": "off",
+         "thumb": "home2-slider-3.jpg"
+      },
+      {
+         "path": "/shop",
+         "subtitle": "sunglasses",
+         "title": "weekly offer",
+         "offer": "30%",
+         "sup": "off",
+         "thumb": "home2-slider-4.jpg"
+      },
+      {
+         "path": "/shop",
+         "subtitle": "new arrival",
+         "title": "sports shoes",
+         "offer": "50%",
+         "sup": "flat off",
+         "thumb": "home2-slider-5.jpg"
+      },
+      {
+         "path": "/shop",
+         "subtitle": "accessories",
+         "title": "smart offer",
+         "offer": "40%",
+         "sup": "flat off",
+         "thumb": "home2-slider-6.jpg"
+      }
+   ],
+   "banner_three": [
+      {
+         "path": "/shop",
+         "subtitle": "2019 Latest Collection",
+         "title": "New Fashion Collection",
+         "thumb": "h-slider-1.jpg"
+      },
+      {
+         "path": "/shop",
+         "subtitle": "2019 Latest Collection",
+         "title": "Summer Time Collection",
+         "thumb": "h-slider-2.jpg"
+      },
+      {
+         "path": "/shop",
+         "subtitle": "2019 Latest Collection",
+         "title": "Men's Suiting and Clothing",
+         "thumb": "h-slider-3.jpg"
+      }
+   ],
+   "site_features": [
+      {
+         "subtitle": "freeShiping",
+         "title": "every day / every order",
+         "desc": "*all order over $100",
+         "thumb": "free-delivery.png"
+      },
+      {
+         "subtitle": "friendlySupport",
+         "title": "24/7 Dedicated support",
+         "desc": "*only in usa",
+         "thumb": "customer-support.png"
+      },
+      {
+         "subtitle": "secure",
+         "title": "money back guranted",
+         "desc": "*conditions apply",
+         "thumb": "money-back.png"
+      }
+   ],
+   "site_features_two": [
+      {
+         "icon": "shopping_cart",
+         "title": "Free Shipping",
+         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+         "icon": "thumb_up",
+         "title": "24X7 Support",
+         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+         "icon": "whatshot",
+         "title": "Best Price",
+         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+   ],
+   "cta": [
+      {
+         "path": "/products/gadgets/12",
+         "thumb": "mobile.jpg"
+      },
+      {
+         "path": "/products/women/10",
+         "thumb": "sports.jpg"
+      },
+      {
+         "path": "/products/gadgets/11",
+         "thumb": "headphone.jpg"
+      },
+      {
+         "path": "/products/men/5",
+         "thumb": "t-shirts.jpg"
+      },
+      {
+         "path": "/products/gadgets/14",
+         "thumb": "watch.jpg"
+      },
+      {
+         "path": "/products/men/6",
+         "thumb": "shoes.jpg"
+      }
+   ],
+   "collection_gallery": {
+      "popular": {
+         "path": "/shop",
+         "title": "Latest Collections",
+         "offer": "Save Upto 60%",
+         "thumb": "collection.jpg",
+         "alignContent": "end-left"
+      },
+      "gallery": [
+         {
+            "path": "/shop",
+            "title": "Mens Collections",
+            "offer": "Save Upto 40%",
+            "thumb": "col-men.jpg",
+            "alignContent": "end-left"
+         },
+         {
+            "path": "/shop",
+            "title": "Women's Collections",
+            "offer": "Save Upto 30%",
+            "thumb": "col-women.jpg",
+            "alignContent": "end-right"
+         },
+         {
+            "path": "/shop",
+            "title": "Watches Collections",
+            "offer": "Save Upto 50%",
+            "thumb": "col-watches.jpg",
+            "alignContent": "end-left"
+         },
+         {
+            "path": "/shop",
+            "title": "Accessories Collections",
+            "offer": "Save Upto 60%",
+            "thumb": "col-accessories.jpg",
+            "alignContent": "end-right"
+         }
+      ]
+   },
+   "order_history": [
+      {
+         "count": "1",
+         "id": "1801",
+         "productName": "LEGITIM",
+         "price": "1.0079",
+         "status": "Sent",
+         "action": "remove_red_eye"
+      },
+      {
+         "count": "2",
+         "id": "1832",
+         "productName": "GRUNDTAL",
+         "price": "4.0026",
+         "status": "In processing",
+         "action": "remove_red_eye"
+      },
+      {
+         "count": "3",
+         "id": "1881",
+         "productName": "BOHOLMEN",
+         "price": "6.941",
+         "status": "Sent",
+         "action": "remove_red_eye"
+      },
+      {
+         "count": "4",
+         "id": "1832",
+         "productName": "ROSTAD LÖK",
+         "price": "9.0122",
+         "status": "Return",
+         "action": "remove_red_eye"
+      },
+      {
+         "count": "5",
+         "id": "1810",
+         "productName": "TÅRTA CHOKLADKROKANT",
+         "price": "10.811",
+         "status": "Sent",
+         "action": "remove_red_eye"
+      }
+   ],
+   "products": {
+      "men": [
+         {
+            "objectID": 1,
+            "type": "men",
+            "image": "men/3-item-a.jpg",
+            "name": "Vintage Jean",
+            "brand": "Liod Marcos",
+            "discount_price": 13.30,
+            "price": 18.75,
+            "rating": 4,
+            "availablity": true,
+            "product_code": "#EM1201",
+            "tags": [
+               "Jean ",
+               "Men ",
+               "Outwear"
+            ],
+            "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Slim Fit",
+               "Stretchable",
+               "Free Shipping and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "men/3-item-a.jpg",
+               "men/3-item-b.jpg",
+               "men/3-item-c.jpg",
+               "men/3-item-d.jpg",
+               "men/3-item-e.jpg"
+            ],
+            "category": "Jeans",
+            "category_type": "clothing",
+            "color": "Blue",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 2,
+            "type": "men",
+            "brand": "Bull Riders",
+            "image": "men/2-item-a.jpg",
+            "name": "Super Jacket",
+            "discount_price": 67.00,
+            "price": 82.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1202",
+            "tags": [
+               "Winter ",
+               "Men ",
+               "Jacket"
+            ],
+            "desc": "Sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae! Lorem ipsum dolor",
+            "features": [
+               "Loose Fit",
+               "Pure Leather",
+               "Free Shipping and delivery in 2 Days"
+            ],
+            "image_gallery": [
+               "men/2-item-a.jpg",
+               "men/2-item-b.jpg",
+               "men/2-item-c.jpg",
+               "men/2-item-d.jpg",
+               "men/2-item-e.jpg"
+            ],
+            "category": "Jackets",
+            "category_type": "clothing",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 3,
+            "type": "men",
+            "brand": "Jeno Karla",
+            "image": "men/1-item-a.jpg",
+            "name": "Denim Pullover",
+            "discount_price": 36.00,
+            "price": 42.75,
+            "rating": 4,
+            "availablity": true,
+            "product_code": "#EM1203",
+            "tags": [
+               "Men ",
+               "Pullover",
+               "Denim"
+            ],
+            "desc": "Suspendisse porttitor ornare ligula. Nam massa erat, fermentum dolor quis, maximus ultrices diam. Aenean pellentesque auctor elementum. Nunc vitae tortor iaculis, mollis odio at, lacinia sapien. Mauris et leo sem. Curabitur sit amet enim nisi. Nunc placerat commodo sem, sed maximus purus",
+            "features": [
+               "Slim Fit",
+               "Denim Made",
+               "Free Shipping in some areas and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "men/1-item-a.jpg",
+               "men/1-item-b.jpg",
+               "men/1-item-c.jpg",
+               "men/1-item-d.jpg",
+               "men/1-item-e.jpg"
+            ],
+            "category": "Shirt",
+            "category_type": "clothing",
+            "color": "Blue",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 4,
+            "type": "men",
+            "brand": "The Capressi",
+            "image": "men/4-item-a.jpg",
+            "name": "Blue Jean",
+            "discount_price": 32.00,
+            "price": 40.82,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1204",
+            "tags": [
+               "Blue",
+               "Men",
+               "Jean"
+            ],
+            "desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Slim Fit",
+               "Relaxed",
+               "Free Shipping and delivery in 1 Days"
+            ],
+            "image_gallery": [
+               "men/4-item-a.jpg",
+               "men/4-item-b.jpg",
+               "men/4-item-c.jpg",
+               "men/4-item-d.jpg",
+               "men/4-item-e.jpg"
+            ],
+            "category": "Jeans",
+            "category_type": "clothing",
+            "color": "Blue",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 5,
+            "type": "men",
+            "brand": "JK CK",
+            "image": "men/5-item-a.jpg",
+            "name": "Black T-Shirt",
+            "discount_price": 17.00,
+            "price": 22.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1205",
+            "tags": [
+               "Black ",
+               "Men ",
+               "Summer"
+            ],
+            "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Slim Fit",
+               "Pure Cotton",
+               "Free Shipping and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "men/5-item-a.jpg",
+               "men/5-item-b.jpg",
+               "men/5-item-c.jpg",
+               "men/5-item-d.jpg",
+               "men/5-item-e.jpg"
+            ],
+            "category": "T-Shirt",
+            "category_type": "clothing",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 6,
+            "type": "men",
+            "brand": "Nike",
+            "image": "men/cat-shoes.jpg",
+            "name": "Men White AIR",
+            "discount_price": 55.00,
+            "price": 65.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#4330899",
+            "tags": [
+               "Black ",
+               "White"
+            ],
+            "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Leather",
+               "Wipe with a clean, dry cloth to remove dust"
+            ],
+            "image_gallery": [
+               "men/cat-shoes.jpg"
+            ],
+            "category": "Shoes",
+            "category_type": "shoes",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": true
+         }
+      ],
+      "women": [
+         {
+            "objectID": 7,
+            "type": "women",
+            "brand": "Liod Marcos",
+            "image": "women/6-item-a.jpg",
+            "name": "Red Strip Dress",
+            "discount_price": 75.00,
+            "price": 97.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1205",
+            "tags": [
+               "Red ",
+               "Women ",
+               "Outwear"
+            ],
+            "desc": "Amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Regular Fit ",
+               "Pure Cotton ",
+               "Delivery in 3 Days"
+            ],
+            "image_gallery": [
+               "women/6-item-a.jpg",
+               "women/6-item-b.jpg",
+               "women/6-item-c.jpg",
+               "women/6-item-d.jpg",
+               "women/6-item-e.jpg"
+            ],
+            "category": "Dresses",
+            "category_type": "clothing",
+            "color": "Red",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 8,
+            "type": "women",
+            "brand": "Liod Marcos",
+            "image": "women/7-item-a.jpg",
+            "name": "Blue Denim",
+            "discount_price": 45.00,
+            "price": 49.75,
+            "rating": 4,
+            "availablity": true,
+            "product_code": "#EM1206",
+            "tags": [
+               "Blue ",
+               "Outwear ",
+               "Denim"
+            ],
+            "desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Loose Fit",
+               "Pure Denim",
+               "Free Shipping and delivery in 2 Days"
+            ],
+            "image_gallery": [
+               "women/7-item-a.jpg",
+               "women/7-item-b.jpg",
+               "women/7-item-c.jpg",
+               "women/7-item-d.jpg",
+               "women/7-item-e.jpg"
+            ],
+            "category": "Shirt",
+            "category_type": "clothing",
+            "color": "Blue",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 9,
+            "type": "women",
+            "brand": "Liod Marcos",
+            "image": "women/8-item-a.jpg",
+            "name": "Black Dress",
+            "discount_price": 12.00,
+            "price": 15.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1207",
+            "tags": [
+               "Red ",
+               "Women ",
+               "Outwear"
+            ],
+            "desc": "Consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Slim Fit",
+               "Pure Cotton",
+               "Free Shipping and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "women/8-item-a.jpg",
+               "women/8-item-b.jpg",
+               "women/8-item-c.jpg",
+               "women/8-item-d.jpg",
+               "women/8-item-e.jpg"
+            ],
+            "category": "Dresses",
+            "category_type": "clothing",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 10,
+            "type": "women",
+            "brand": "Liod Marcos",
+            "image": "women/9-item-a.jpg",
+            "name": "White T-Shirt",
+            "discount_price": 15.00,
+            "price": 19.45,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1208",
+            "tags": [
+               "White ",
+               "Graphic ",
+               "Women"
+            ],
+            "desc": "Sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Slim Fit ",
+               "100% Cotton ",
+               "Free Shipping and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "women/9-item-b.jpg",
+               "women/9-item-c.jpg",
+               "women/9-item-d.jpg",
+               "women/9-item-e.jpg"
+            ],
+            "category": "T-Shirt",
+            "category_type": "clothing",
+            "color": "White",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         }
+      ],
+      "gadgets": [
+         {
+            "objectID": 11,
+            "type": "gadgets",
+            "brand": "Liod Marcos",
+            "image": "gadgets/g-1-a.jpg",
+            "name": "Wired Headphone",
+            "discount_price": 90.00,
+            "price": 125.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1209",
+            "tags": [
+               "Headphone",
+               "Gadgets",
+               "Electronic"
+            ],
+            "desc": "Ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Bass Boosted ",
+               "Start/Pause Button ",
+               "Skype/VobjectIDeo Call Compatible"
+            ],
+            "image_gallery": [
+               "gadgets/g-1-a.jpg",
+               "gadgets/g-1-b.jpg",
+               "gadgets/g-1-c.jpg",
+               "gadgets/g-1-d.jpg"
+            ],
+            "category": "Headphone",
+            "category_type": "gadgets",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 12,
+            "type": "gadgets",
+            "brand": "Liod Marcos",
+            "image": "gadgets/g-2-a.jpg",
+            "name": "Black Smartphone",
+            "discount_price": 655.00,
+            "price": 847.63,
+            "rating": 4,
+            "availablity": true,
+            "product_code": "#EM1210",
+            "tags": [
+               "Phone ",
+               "Smartphone ",
+               "New"
+            ],
+            "desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Full Screen Touch",
+               "6GB Ram and 128 Gb Memory",
+               "Wireless Headphone"
+            ],
+            "image_gallery": [
+               "gadgets/g-2-a.jpg",
+               "gadgets/g-2-b.jpg",
+               "gadgets/g-2-c.jpg",
+               "gadgets/g-2-d.jpg"
+            ],
+            "category": "Smartphone",
+            "category_type": "gadgets",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 13,
+            "type": "gadgets",
+            "brand": "Liod Marcos",
+            "image": "gadgets/g-3-a.jpg",
+            "name": "Digial Watch",
+            "discount_price": 225.56,
+            "price": 357.75,
+            "rating": 4,
+            "availablity": true,
+            "product_code": "#EM12012",
+            "tags": [
+               "Analog/Digital ",
+               "Men/Women ",
+               "Black"
+            ],
+            "desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Soft Leather",
+               "Chargable",
+               "Delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "gadgets/g-3-a.jpg",
+               "gadgets/g-3-b.jpg",
+               "gadgets/g-3-c.jpg",
+               "gadgets/g-3-d.jpg"
+            ],
+            "category": "Watch",
+            "category_type": "gadgets",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": true
+         },
+         {
+            "objectID": 14,
+            "type": "gadgets",
+            "brand": "Liod Marcos",
+            "image": "gadgets/g-4-a.jpg",
+            "name": "Digital Watch",
+            "discount_price": 458.00,
+            "price": 568.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1213",
+            "tags": [
+               "Analog/Digital ",
+               "Men/Women ",
+               "Black"
+            ],
+            "desc": "Opsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Touch Screen",
+               "Bluetooth",
+               "Free Shipping and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "gadgets/g-4-a.jpg",
+               "gadgets/g-4-b.jpg",
+               "gadgets/g-4-c.jpg",
+               "gadgets/g-4-d.jpg",
+               "gadgets/g-4-e.jpg"
+            ],
+            "category": "Watch",
+            "category_type": "gadgets",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 15,
+            "type": "gadgets",
+            "brand": "Liod Marcos",
+            "image": "gadgets/g-5-a.jpg",
+            "name": "Circular Speaker",
+            "discount_price": 698.45,
+            "price": 989,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1214",
+            "tags": [
+               "Speaker",
+               "Smart",
+               "Circular"
+            ],
+            "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Woofer",
+               "Wireless",
+               "Free Shipping and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "gadgets/g-5-a.jpg",
+               "gadgets/g-5-b.jpg",
+               "gadgets/g-5-c.jpg",
+               "gadgets/g-5-d.jpg"
+            ],
+            "category": "Speaker",
+            "category_type": "gadgets",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         }
+      ],
+      "accessories": [
+         {
+            "objectID": 16,
+            "type": "accessories",
+            "brand": "Liod Marcos",
+            "image": "accessroies/a-1-a.jpg",
+            "name": "Laptop Backpack",
+            "discount_price": 88.00,
+            "price": 92.75,
+            "rating": 4,
+            "availablity": true,
+            "product_code": "#EM1215",
+            "tags": [
+               "Black",
+               "Laptop",
+               "Bags"
+            ],
+            "desc": "Adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae! Lorem ipsum dolor sit amet consectetur",
+            "features": [
+               "Dell/Mac/Acer Laptop Bag",
+               "Pure Leather",
+               "20 Kg Capacity"
+            ],
+            "image_gallery": [
+               "accessroies/a-1-a.jpg",
+               "accessroies/a-1-b.jpg",
+               "accessroies/a-1-c.jpg",
+               "accessroies/a-1-d.jpg"
+            ],
+            "category": "Laptap",
+            "category_type": "accessories",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": true
+         },
+         {
+            "objectID": 17,
+            "type": "accessories",
+            "brand": "Liod Marcos",
+            "image": "accessroies/a-2-a.jpg",
+            "name": "Men Belts",
+            "discount_price": 44.00,
+            "price": 38.31,
+            "rating": 4,
+            "availablity": true,
+            "product_code": "#EM1216",
+            "tags": [
+               "Tan",
+               "Belts",
+               "Leather"
+            ],
+            "desc": "Uorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Pure Leather",
+               "Water Proof",
+               "Steel Buckle"
+            ],
+            "image_gallery": [
+               "accessroies/a-2-a.jpg",
+               "accessroies/a-2-b.jpg",
+               "accessroies/a-2-c.jpg",
+               "accessroies/a-2-d.jpg"
+            ],
+            "category": "Belts",
+            "category_type": "accessories",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 18,
+            "type": "accessories",
+            "brand": "Liod Marcos",
+            "image": "accessroies/a-3-a.jpg",
+            "name": "Steel Chain",
+            "discount_price": 78.00,
+            "price": 56.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1217",
+            "tags": [
+               "Chain",
+               "Long Chain",
+               "Accessories"
+            ],
+            "desc": "Ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Slim Fit",
+               "Pure Steel",
+               "Free Shipping and delivery in 7 Days"
+            ],
+            "image_gallery": [
+               "accessroies/a-3-a.jpg",
+               "accessroies/a-3-b.jpg",
+               "accessroies/a-3-c.jpg",
+               "accessroies/a-3-d.jpg"
+            ],
+            "category": "Jewellery",
+            "category_type": "accessories",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 19,
+            "type": "accessories",
+            "brand": "Liod Marcos",
+            "image": "accessroies/a-4-a.jpg",
+            "name": "Men Purse",
+            "discount_price": 14.00,
+            "price": 15.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1218",
+            "tags": [
+               "Tan",
+               "Men",
+               "Money"
+            ],
+            "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Slim Designed",
+               "Pure Leather",
+               "Credit/Debit Cards Pockets"
+            ],
+            "image_gallery": [
+               "accessroies/a-4-a.jpg",
+               "accessroies/a-4-b.jpg",
+               "accessroies/a-4-c.jpg",
+               "accessroies/a-4-d.jpg"
+            ],
+            "category": "Purse",
+            "category_type": "accessories",
+            "color": "Brown",
+            "quantity": 1,
+            "status": 0,
+            "popular": false
+         },
+         {
+            "objectID": 20,
+            "type": "accessories",
+            "brand": "Liod Marcos",
+            "image": "accessroies/a-5-a.jpg",
+            "name": "Summer Goggles",
+            "discount_price": 14.00,
+            "price": 15.75,
+            "rating": 5,
+            "availablity": true,
+            "product_code": "#EM1219",
+            "tags": [
+               "Black",
+               "Men",
+               "Shape"
+            ],
+            "desc": "Iit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae!",
+            "features": [
+               "Smooth Finishing",
+               "Soft",
+               "Free Shipping and delivery in 4 Days"
+            ],
+            "image_gallery": [
+               "accessroies/a-5-a.jpg",
+               "accessroies/a-5-b.jpg",
+               "accessroies/a-5-c.jpg",
+               "accessroies/a-5-d.jpg"
+            ],
+            "category": "Goggles",
+            "category_type": "Accessories",
+            "color": "Black",
+            "quantity": 1,
+            "status": 0,
+            "popular": true
+         }
+      ]
+   },
+   "testimonial": [
+      {
+         "name": "Howard Campbell",
+         "designation": "CEO , Dellec Info",
+         "desc": "I love the way it has delivered to me and after using ,i just wanna say one word that is awesome ",
+         "thumb": "user-1.jpg"
+      },
+      {
+         "name": "James Hamm",
+         "designation": "CEO , Dellec Info",
+         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate, sed delectus",
+         "thumb": "user-2.jpg"
+      },
+      {
+         "name": "Rose Johnson",
+         "designation": "CEO , Dellec Info",
+         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate, sed delectus",
+         "thumb": "user-3.jpg"
+      },
+      {
+         "name": "michael philips",
+         "designation": "CEO , Dellec Info",
+         "desc": "Suspendisse porttitor ornare ligula. Nam massa erat, fermentum dolor quis, maximus ultrices diam.",
+         "thumb": "user-4.jpg"
+      }
+   ],
+   "blogs": [
+      {
+         "id": 1,
+         "post_type": "Featured post.",
+         "name": "Here are some of best online shopping sites for you in europe.",
+         "author": {
+            "author_img": "user-1.jpg",
+            "author_name": "Billy Wade",
+            "post_date": "Sept 12, 2019",
+            "author_bio": "There's lot of hate out there for a text that amounts to little more than garbled words in an old language. The villagers are out there with a vengeance to get that Frankenstein, wielding torches and pitchforks, wanting to tar and feather it at the least, running it out of town in shame"
+         },
+         "banner_img": "blog-detail-1.jpg",
+         "image": "post-1.jpg",
+         "content": "<p> <span class='dropcap active-color'>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Animi ea libero nobis hic impedit similique, iste possimus. Libero delectus hic tempore suscipit blanditiis? Odit consequuntur facilis debitis quam accusamus ducimus? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p> <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). sometimes on purpose (injected humour and the like). </p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea libero nobis hic impedit similique, iste possimus. Libero delectus hic tempore suscipit blanditiis? Odit consequuntur facilis debitis quam accusamus ducimus? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p> <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>",
+         "short_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+         "tags": [
+            "Shopping",
+            "Online"
+         ],
+         "user_comments": [
+            {
+               "img": "user-2.jpg",
+               "name": "Jimmy Beck",
+               "comment": "Do you like Cheese Whiz? Spray tan? Fake eyelashes? That's what is Lorem Ipsum to many—it rubs them the wrong way, all the way. It's unreal, uncanny, makes you wonder if something is wrong, it seems to seek your attention for all the wrong reasons. ",
+               "date": "Sept 13, 2019",
+               "sub_comments": [
+                  {
+                     "img": "user-3.jpg",
+                     "name": "Jessica Reed",
+                     "comment": "You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. ",
+                     "date": "Sept 13, 2019"
+                  },
+                  {
+                     "img": "user-4.jpg",
+                     "name": "Jeff Mackoay",
+                     "comment": "But. A big but: Lorem Ipsum is not t the root of the problem, it just shows what's going wrong. Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required",
+                     "date": "Sept 15, 2019"
+                  }
+               ]
+            },
+            {
+               "img": "user-3.jpg",
+               "name": "Jessica Reed",
+               "comment": "You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. ",
+               "date": "Sept 13, 2019"
+            },
+            {
+               "img": "user-4.jpg",
+               "name": "Jeff Mackoay",
+               "comment": "But. A big but: Lorem Ipsum is not t the root of the problem, it just shows what's going wrong. Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required",
+               "date": "Sept 15, 2019"
+            }
+         ]
+      },
+      {
+         "id": 2,
+         "post_type": "Featured post.",
+         "name": "Get awesome offers on new collection that is available at all stores.",
+         "author": {
+            "author_img": "user-3.jpg",
+            "author_name": "Demeon Phil",
+            "post_date": "Sept 14, 2019",
+            "author_bio": "Websites in professional use templating systems. Commercial publishing platforms and content management systems ensure that you can show different text, different data using the same template. When it's about controlling hundreds of articles, product pages"
+         },
+         "banner_img": "blog-detail-2.jpg",
+         "image": "post-2.jpg",
+         "content": "<p> <span class='dropcap active-color'>C</span>onsectetur adipisicing elit. Animi ea libero nobis hic impedit similique, iste possimus. Libero delectus hic tempore suscipit blanditiis? Odit consequuntur facilis debitis quam accusamus ducimus? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p> <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). sometimes on purpose (injected humour and the like). </p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea libero nobis hic impedit similique, iste possimus. Libero delectus hic tempore suscipit blanditiis? Odit consequuntur facilis debitis quam accusamus ducimus? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p> <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>",
+         "short_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+         "tags": [
+            "Shopping",
+            "New Arrival"
+         ],
+         "user_comments": [
+            {
+               "img": "user-1.jpg",
+               "name": "Emily Barn",
+               "comment": "Do you like Cheese Whiz? Spray tan? Fake eyelashes? That's what is Lorem Ipsum to many—it rubs them the wrong way, all the way. It's unreal, uncanny, makes you wonder if something is wrong, it seems to seek your attention for all the wrong reasons. ",
+               "date": "Sept 13, 2019"
+            },
+            {
+               "img": "user-4.jpg",
+               "name": "Lara Wilson",
+               "comment": "You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. ",
+               "date": "Sept 13, 2019"
+            },
+            {
+               "img": "user-2.jpg",
+               "name": "Jaby Gibbs",
+               "comment": "But. A big but: Lorem Ipsum is not t the root of the problem, it just shows what's going wrong. Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required",
+               "date": "Sept 15, 2019"
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "post_type": "Featured post.",
+         "name": "Festival Sale has lots of amazing offer for men and woman",
+         "author": {
+            "author_img": "user-2.jpg",
+            "author_name": "Luke Hobbs",
+            "post_date": "Sept 16, 2019",
+            "author_bio": "If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It might be a bit annoying but you could tell them that that discussion would be best suited for another time."
+         },
+         "banner_img": "blog-detail-3.jpg",
+         "image": "post-3.jpg",
+         "content": "<p> <span class='dropcap active-color'>T</span>onsectetur adipisicing elit. Animi ea libero nobis hic impedit similique, iste possimus. Libero delectus hic tempore suscipit blanditiis? Odit consequuntur facilis debitis quam accusamus ducimus? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p> <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). sometimes on purpose (injected humour and the like). </p> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea libero nobis hic impedit similique, iste possimus. Libero delectus hic tempore suscipit blanditiis? Odit consequuntur facilis debitis quam accusamus ducimus? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p> <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>",
+         "short_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+         "tags": [
+            "Shopping",
+            "New Arrival"
+         ],
+         "user_comments": [
+            {
+               "img": "user-4.jpg",
+               "name": "Emily Barn",
+               "comment": "Do you like Cheese Whiz? Spray tan? Fake eyelashes? That's what is Lorem Ipsum to many—it rubs them the wrong way, all the way. It's unreal, uncanny, makes you wonder if something is wrong, it seems to seek your attention for all the wrong reasons. ",
+               "date": "Sept 13, 2019"
+            },
+            {
+               "img": "user-1.jpg",
+               "name": "Lara Wilson",
+               "comment": "You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. ",
+               "date": "Sept 13, 2019"
+            },
+            {
+               "img": "user-3.jpg",
+               "name": "Jaby Gibbs",
+               "comment": "But. A big but: Lorem Ipsum is not t the root of the problem, it just shows what's going wrong. Chances are there wasn't collaboration, communication, and checkpoints, there wasn't a process agreed upon or specified with the granularity required",
+               "date": "Sept 15, 2019"
+            }
+         ]
+      }
+   ],
+   "clients": [
+      {
+         "image": "client1.png",
+         "path": "/shop"
+      },
+      {
+         "image": "client2.png",
+         "path": "/shop"
+      },
+      {
+         "image": "client4.png",
+         "path": "/shop"
+      },
+      {
+         "image": "client1.png",
+         "path": "/shop"
+      },
+      {
+         "image": "client4.png",
+         "path": "/shop"
+      },
+      {
+         "image": "client2.png",
+         "path": "/shop"
+      }
+   ],
+   "team_data": [
+      {
+         "thumb": "user-1.jpg",
+         "name": "Anthony Gilbert",
+         "designation": "CEO",
+         "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque esse iure aliquid enim, corrupti     distinctio sit praesentium ducimus incidunt rem facilis expedita illo at tempore natus nihil veritatis           accusamus vel."
+      },
+      {
+         "thumb": "user-2.jpg",
+         "name": "mark lee",
+         "designation": "CEO",
+         "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque esse iure aliquid enim, corrupti     distinctio sit praesentium ducimus incidunt rem facilis expedita illo at tempore natus nihil veritatis           accusamus vel."
+      },
+      {
+         "thumb": "user-3.jpg",
+         "name": "rose johnson",
+         "designation": "CEO",
+         "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque esse iure aliquid enim, corrupti     distinctio sit praesentium ducimus incidunt rem facilis expedita illo at tempore natus nihil veritatis           accusamus vel."
+      }
+   ],
+   "shop_card": [
+      {
+         "path": "/shop",
+         "title": "Men White AIR",
+         "subtitle": "Shoes ",
+         "offer": "UPTO 20% OFF",
+         "thumb": "cat-shoes.jpg"
+      },
+      {
+         "path": "/shop",
+         "title": "White T-Shirt",
+         "subtitle": "T-Shirt ",
+         "offer": "UPTO 20% OFF",
+         "thumb": "women/9-item-a.jpg"
+      },
+      {
+         "path": "/shop",
+         "title": "Circular Speaker",
+         "subtitle": "Speaker ",
+         "offer": "UPTO 20% OFF",
+         "thumb": "gadgets/g-5-a.jpg"
+      },
+      {
+         "path": "/shop",
+         "title": "Summer Goggles",
+         "subtitle": "Goggles",
+         "offer": "UPTO 20% OFF",
+         "thumb": "accessroies/a-5-a.jpg"
+      }
+   ],
+   "user_info": [
+      {
+         "title": "First Name",
+         "value": "John"
+      },
+      {
+         "title": "Last Name",
+         "value": "Doe"
+      },
+      {
+         "title": "Gender",
+         "value": "Male"
+      },
+      {
+         "title": "Date of birth",
+         "value": "Jan,06,1979"
+      },
+      {
+         "title": "Mobile Number",
+         "value": "+120 256 254 125"
+      },
+      {
+         "title": "location",
+         "value": "New York"
+      },
+      {
+         "title": "E-mail id",
+         "value": "johnDoe@doe.com"
+      }
+   ],
+   "contact": {
+      "address": "1899 Cemetery Street,MEDFORD - 1452451 New York",
+      "mail": "support@theironnetwork.org",
+      "call": "+123 90394903",
+      "info": "If you have any problems,suggestions and feedback then please feel free to contact with us. Choose our communication soruces. We will love to hear from you."
+   }
+}

@@ -1,0 +1,92 @@
+
+//header three styling
+.iron-header-v3{
+    box-shadow:none !important;
+    background-color:$primary;
+    .iron-header-top{
+        background-color: #E91E63;
+    }
+    .iron-header-middle{
+      background-color: $grey;
+    }
+    .widget-text{
+        span{
+            font-size:0.9375rem;
+        }
+    }
+    .widget-text,.iron-language-provider,.iron-currency-provider {
+        padding:0 10px;
+        border-right: 1px solid rgba(255,255,255,.2);
+        min-height:44px;
+        height: 44px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        .base-text{
+            padding:0 !important;
+            min-width: 100px;
+            justify-content:space-between;
+        }
+    }
+    .widget-text{
+        padding-left:0;
+    }
+    .iron-app-logo{
+        padding:8px 0;
+    }
+    .search-form-v3{
+        padding: 0 !important;
+        width:77%;
+    }
+    .iron-whislist-wrap,.iron-cart-wrap,.iron-logout-wrap{
+        border-right: 1px solid rgba(255,255,255,.2);
+        min-height:44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .icon-btn {
+        width: 1.5625rem !important;
+        height: 1.5625rem !important;
+        background-color: transparent !important;
+        box-shadow: none;
+        margin:0 0.625rem !important;
+    }
+    .badge-active span {
+        width: 0.9375rem;
+        height: 0.9375rem;
+        min-width: 0.9375rem;
+        min-height: 0.9375rem;
+        font-size: 0.625rem;
+        line-height: 1;
+        top: 0;
+        right: 1px;
+    }
+    .iron-header-menu{
+      li{
+        a{
+           color: $base;
+           line-height: 3.125rem;
+           &:after{
+               bottom:-7px;
+           }
+        }
+        .sub-menu{
+            top:114%;
+        }
+      }
+      .mega-menu{
+        >.sub-menu{
+            >li{
+                >a{
+                    border-bottom: 1px solid #d5d5d5;
+                }
+            }
+        }
+      }
+    }
+    .iron-sidebar-nav-wrap,.iron-search-box{
+        display: none;
+    }
+}

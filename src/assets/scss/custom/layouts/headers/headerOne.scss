@@ -1,0 +1,23 @@
+/*------------------------------------------------------------
+  5.1.1 headers
+-----------------------------------------------------------*/
+
+//header one styling
+.iron-header-v1{
+  box-shadow: none !important;
+  background-color:$primary;
+  .iron-header-top{
+    background-color: rgba(255,255,255,.05); 
+  }
+  .iron-header-bottom{
+   min-height:64px;
+  }
+  .iron-header-menu{
+    li{
+      a{
+        color: $base;
+      }
+    }
+  }
+}
+

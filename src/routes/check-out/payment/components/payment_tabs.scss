@@ -1,0 +1,29 @@
+.tabs_custom_container{
+    padding: 15px 25px;
+    background-color: #ffffff;
+    flex-grow: 1;
+    width: calc(100% - 250px);
+}
+.payment_custom_tab{
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    &.active{
+    color: #f44336;
+    border-right: transparent;
+    background-color: #ffffff;
+    }
+}
+
+.payment-detail{
+    &.no_padding{
+        padding: 0px !important;
+    }
+}
+
+.tabs_custom_width{
+    width: 250px;
+    background-color: #f4f4f4;
+}

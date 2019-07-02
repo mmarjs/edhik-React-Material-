@@ -1,0 +1,284 @@
+/*------------------------------------------------------------
+    3.3 common
+-----------------------------------------------------------*/
+.h-100{
+    height:100%;
+}
+.w-100{
+    width:100%;
+}
+
+.selector-link{
+    font-size:14px !important;
+    text-transform: capitalize !important;
+}
+.iron-shadow{
+    box-shadow: $box-shadow !important;
+}
+
+.hover-box-shadow{
+    transition: box-shadow .3s ease-in-out;
+    &:hover{
+        box-shadow: 0 0 16px 0 rgba(0,0,0,.12),0 16px 16px 0 rgba(0,0,0,.24)  !important; 
+    }
+    
+}
+.rounded{
+    border-radius:0.3125rem;
+    img{
+      border-radius:0.3125rem;
+    }
+}
+
+.post-rounded{
+    border-radius:0.3125rem;
+    img{
+      border-top-left-radius:0.3125rem;
+      border-top-right-radius:0.3125rem;
+    }
+}
+
+.section-pad{
+    padding: 1rem 0;
+}
+
+.text-truncate{
+    text-overflow: ellipsis;
+    max-width:100%;//8rem
+    overflow: hidden;
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+//-------rct card style ---------
+.rct-card-wrap{
+    border-radius:0.3125rem;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),
+    0 2px 2px 0 rgba(0,0,0,.14),
+    0 1px 0.3125rem 0 rgba(0,0,0,.12);
+    padding: 1.5625rem;
+    background-color: $base;
+    margin-bottom: 1.875rem;
+}
+
+//-------listing style --------
+.no-style{
+    li{
+        display: block;
+        margin-bottom:0.3125rem;
+    }
+}
+
+//------bullet list style-------
+.bullets-list{
+    li{
+        display: block;
+        position: relative;
+        font-size:0.875rem;
+        font-weight:$font-weight-base;
+        padding-left: 1rem;
+        margin-bottom: 0.3rem;
+        &:before{
+            content: '';
+            width: 5px;
+            height: 5px;
+            display: inline-block;
+            background: #000;
+            border-radius: 100%;
+            position: absolute;
+            top: 46%;
+            left: 2px;
+        }
+        
+    }
+}
+
+//------ meta tag style ------
+.iron-meta-info{
+    .meta-list{
+        display:inline-block;
+        margin-right:12px;
+        a{
+            color: rgba(0,0,0,0.54);		
+            font-size: 0.75rem;	
+            text-transform: capitalize;
+            i{
+                font-size: 0.875rem;
+                vertical-align: middle;
+            }
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover{
+            a{
+                color:$dark;
+            }
+        }
+    }
+}
+
+//------- social icons style ----------
+.iron-social-icons{
+    li{
+        display:inline-block;
+        margin-right:0.3125rem;
+        button,a{
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color:$primary;
+            border:2px solid $primary;
+            color:$base;
+            transition: all 0.4s ease-in-out 0s;
+            i{
+                font-size:1rem;
+            }
+        }
+        &:hover{
+            button,a{
+                background-color: $base;
+                color:$primary;
+            }
+        }
+    }
+}
+
+//-------blog content overlay color --------
+.primary-rgba {
+    background: rgba(40,53,147,.75);
+}
+.black-rgba {
+    background: rgba(0,0,0,.69);
+}
+.pink-rgba {
+    background: rgba(183,58,174,.75);
+}
+
+//-------- rating star style---------
+.rating-star{
+    li{
+        display: inline-block;
+        i{
+            color: #C8C8C8;		
+            font-size: 0.8125rem;		
+            line-height: 1.25rem;
+        }   
+    }
+    .active{
+        i{
+            color:#edb867;
+        }
+    }
+}
+
+//------ product slider tab bar -------
+.iron-tab-bar{
+    .iron-tab-btn{
+        >span:first-child{
+            opacity: 0.7;
+            font-weight: 700;
+            z-index: 5;
+        }
+        >span:nth-child(2){
+            display:none;
+            color:rgba(0,0,0,0.54);
+            
+        }   
+    }
+    .active{
+        background: rgba($base, 0.3) !important;
+    }
+}
+
+//payment tab scroll hide
+.iron-tab-bar{
+    .button-scroll-hide{
+        >div:nth-child(2){
+            >div:nth-child(1),>div:nth-child(3){
+                display:none;
+            }
+        }
+    }
+}
+
+//------- alertbox style---------
+.sweet-alert {
+    .btn-warning{
+        border:none;
+        color:$base;
+        background-color:$active !important;
+        font-weight:700;
+        border-radius: 4px;
+        font-size:1rem;
+        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),
+        0 2px 2px 0 rgba(0,0,0,.14),
+            0 1px 5px 0 rgba(0,0,0,.12);
+        cursor:pointer;
+    }
+}
+//------- blog grid Item style --------
+.iron-post-item{
+    .iron-overlay-wrap{
+        position: relative;
+        .iron-overlay-content{
+            position:absolute;
+            left:0;
+            right:0;
+            top:0;
+            bottom:0;
+            pointer-events: none;
+            .iron-overlay-holder{
+                pointer-events: visible;
+            }    
+        }
+    }
+    .iron-btn-grp{
+        position: absolute;
+        top:-30px;
+        right:20px;
+        z-index:9;
+        transition: transform 0.4s ease-out;
+        .btn-wrap{
+            height: 3.5rem;
+            width: 3.5rem;
+            padding:0;
+            background-color: $active;
+            box-shadow:0 3px 5px -1px rgba(0,0,0,.2),
+             0 6px 10px 0 rgba(0,0,0,.14),
+              0 1px 18px 0 rgba(0,0,0,.12);
+            i{
+                color:$base;
+            }
+        } 
+        &:hover{
+            .btn-wrap{
+                background-color: $active;
+                i{
+                    
+                }
+            }  
+        }
+    }
+    &:hover{
+        .iron-btn-grp{
+            transform: translateY(-30px);
+        }
+    }
+}
+
+//progress bar
+.iron-progress-bar{
+    height:100vh;
+    background-color:$base;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 99998;
+    svg{
+        z-index: 99999;
+    }
+}
+

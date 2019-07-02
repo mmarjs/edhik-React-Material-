@@ -1,0 +1,52 @@
+.sign_in_modal {
+    overflow: visible !important;
+    margin: 0px;
+    width: 100%;
+    max-width: 625px;
+    height: 440px;
+}
+
+.sign_in_modal_container {
+    overflow: visible;
+}
+
+.closeButton {
+    position: absolute !important;
+    right: -67px !important;
+    top: -59px;
+    color: #fff !important;
+
+    svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    &+div {
+        display: flex;
+        padding: 0px;
+    }
+}
+
+.image_sign_in {
+    width: 250px;
+    background-color: #f9440a;
+    background-image: url(/images/sale.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form_modal {
+    flex-grow: 1;
+    padding: 30px 37px;
+
+    .iron-form-input-wrap {
+        width: 100%;
+    }
+
+    .btn-active {
+        width: 100%;
+        border-radius: 2px;
+        box-shadow: none;
+    }
+}

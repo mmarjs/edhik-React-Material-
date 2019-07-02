@@ -1,0 +1,13 @@
+.new_fixed_header {
+    padding-top: 76px;
+    .iron-header-top {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        top: 0px;
+        left: 0px;
+    }
+    .iron-header-bottom.bg-base{
+        height: 40px;
+    }
+}

@@ -1,0 +1,271 @@
+/*-----------------------------------------------------------
+    3.6 slider
+-----------------------------------------------------------*/
+//------ slick slider style--------
+.slider-style{
+    margin-left: -15px;
+    margin-right: -14px;
+    .slick-slide {
+        // margin-left:15px;
+        // margin-right: 15px;
+        >div{
+            padding: 0 0.9375rem;
+        }
+    }
+}
+.slider-style2{
+    .slick-slider{
+        .slick-track{
+            padding-bottom:40px;
+        }
+        .slick-dots{
+            bottom:0;
+        }  
+    }
+}
+.iron-banner-wrapper{
+    .slick-slider{
+        .slick-track{
+            padding: 0;
+        }  
+    }
+}
+.slick-slider{
+    .slick-track{
+        padding:5px 0;
+    }
+}
+
+//------- slick slider dots --------
+.slick-slider{
+    .slick-arrow{
+        border-radius: 100%;
+        border: 2px solid #eef2f3;
+        transition:all 0.4s ease-in-out 0s;
+        width: 3rem;
+        background-color: #eef2f3;
+        cursor: pointer;
+        opacity: 0;
+        visibility:hidden;
+        height: 3rem;
+        box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+        z-index: 9;
+        &:before{
+            color:$dark;
+            opacity: 1;
+            font-size:1.5rem;
+            font-family:'Material-Design-Iconic-Font';
+        }
+    }
+    .slick-prev{
+        left:-50px;
+        &:before{
+            content:'\f2fa';
+        }
+    }
+    .slick-next{
+        right:-50px;
+        &:before{
+            content:"\f2fb";
+        }   
+    }
+    &:hover{
+        .slick-arrow{
+            visibility: visible;
+            opacity:1;
+        } 
+        .slick-prev{
+            left:0;
+        }
+        .slick-next{
+            right:0;
+        }  
+    }
+    .slick-dots{
+        bottom:-50px;
+        li{
+           margin: 0;
+            width: 1rem;
+            height:1rem;
+            button{
+                width: 1rem;
+                height:1rem;
+                padding:3px;
+                &:before{
+                    font-size: 10px;
+                    transition-timing-function:cubic-bezier(0.17, 0.67, 0.83, 0.8);
+                    transition:0.4s;
+                    width: 1rem;
+                    height: 1rem;
+                    line-height: 1rem;
+                }
+            }
+        }
+    }
+}
+//------- banner slider style ------
+.iron-banner-slider{
+    .slick-slider{
+        .slick-track{
+            .slick-slide{
+                img{
+                    width:100%;
+                }
+                >div{
+                    margin: 0 2px;
+                }
+            }
+        }
+    }
+    .iron-post-item{ 
+        .iron-overlay-wrap{
+            .iron-overlay-content{
+                .iron-overlay-holder{
+                    width:45%;
+                    text-align: center;
+                    padding-right:15px;
+                    h2{
+                        font-weight: 400;
+                    }
+                    h1{
+                        font-size: 58px;	
+                        font-style: italic;	
+                        font-weight: 900;	
+                        letter-spacing: -0.09px;	
+                        line-height: 68px;
+                    }
+                }
+            }
+        }
+    }
+    .slick-slider{
+        &:hover{
+            .slick-prev{
+                left:10px;
+            }
+            .slick-next{
+                right:10px;
+            }
+        }
+    }
+    .slick-dots{
+        bottom:30px;
+    }
+}
+//------ product slider dots -------
+.iron-product-slider{
+    .slick-slider{
+        .slick-dots{
+            padding-top:25px;
+            position: static;
+        }
+    }
+}
+//------ banner slider v2 -------
+.iron-banner-slider-v2.slider-style{
+    margin-left: 0;
+    margin-right: 0;
+}  
+.iron-banner-slider-v2 {
+    .slick-slider{
+        .slick-dots {
+            bottom: 0;
+        }  
+    }
+    .slick-slide{
+        padding: 5px 0;
+        &:hover {
+            .iron-post-item{ 
+                box-shadow: 0 0 16px 0 rgba(0,0,0,.12),0 16px 16px 0 rgba(0,0,0,.24) !important;
+            }
+        }
+    }
+    .iron-post-item{ 
+        border-radius: 10px;
+        transition: box-shadow .3s ease-in-out;
+        .iron-thumb-wrap{
+            img{
+                border-radius: 10px;
+                width:100%;
+            }
+        }
+        .iron-overlay-wrap{
+            .iron-overlay-content{
+                .iron-overlay-holder{
+                    width:100%;
+                    text-align: left;
+                    padding-left:50px;
+                    h2{
+                        font-weight: 400;
+                    }
+                    .text-main {
+                        font-size: 4.813rem;
+                        font-weight: 300;
+                        letter-spacing: -1.58px;
+                        line-height: 90px;
+                    }
+                    .text-bold{
+                        font-size: 6.313rem;
+                        font-style: italic;
+                        font-weight: 900;
+                        line-height: 100px;
+                    }
+                    .bold-sup {
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                        line-height: 32px;
+                        font-style: normal;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
+//------- banner-slider-v3 ---------
+.iron-banner-slider-v3{
+    .iron-post-item{
+        border-radius: 7px;
+        overflow: hidden;
+        .iron-overlay-content{ 
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;   
+            background: rgba(6,7,31,.59);  
+            .iron-overlay-holder{
+                width:49%;
+            }
+            p,h4{
+                color:$base;
+            } 
+            p{
+                font-size: 27px;
+                font-weight: 300;
+                line-height: 32px;
+            }
+            h4 {
+                font-size: 96px;
+                font-weight: 300;
+                letter-spacing: -1.5px;
+                line-height: 92px;
+            }
+        }
+    }
+}
+//------- pateners-v2 slider ---------
+.iron-partener-wrap-v2 {
+    .slick-track{
+        padding: 0;
+    }
+    .slick-slide{
+        img {
+            width: 90%;
+            height: 30px;
+        }
+        >div{
+            margin:3rem 1rem;
+        }
+    }
+}

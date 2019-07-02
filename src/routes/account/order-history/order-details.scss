@@ -1,0 +1,249 @@
+.order_details {
+    min-height: calc(100vh - 300px);
+}
+
+.det_card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    background-color: #fff;
+    margin: 16px 0;
+    line-height: normal;
+}
+
+.details_head {
+    color: #212121;
+    margin-bottom: 12px;
+    line-height: normal;
+    display: flex;
+}
+
+.det_delivery {
+    flex-grow: 1;
+    padding: 24px;
+
+}
+
+.det_invoice {
+    padding: 24px;
+    text-align: center;
+    width: 200px;
+    border-left: 1px solid rgba(238, 238, 238, 0.83);
+}
+
+.det_title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.det_name {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.det_p {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1.4;
+    line-height: normal;
+    ;
+    margin-bottom: 0px;
+
+    b {
+        display: inline-block;
+        padding-right: 10px;
+    }
+
+    &+.det_p {
+        margin-top: 10px;
+    }
+}
+
+.request_invoice {
+    font-size: 13px;
+    color: #f44336;
+    font-weight: 500;
+    padding: 7px 16px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+
+    &:hover {
+        color: #fff !important;
+        background-color: #f44336;
+    }
+}
+
+
+.det_body {
+    display: flex;
+}
+
+.det_product {
+    padding: 24px;
+    width: 25%;
+    // background-color: #ffdfdf;
+    border-right: 1px solid rgba(238, 238, 238, 0.83);
+    min-height: 100px;
+    display: flex;
+}
+
+.det_track {
+    padding: 24px;
+    // width: 41.66%;
+    flex-grow: 1;
+}
+
+.det_delivery_on {
+    padding: 24px;
+    padding-left: 30px;
+    width: 250px;
+    border-left: 1px solid rgba(238, 238, 238, 0.83);
+    min-height: 100px;
+
+    button {
+        border: 0px;
+        background-color: #fff;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 0px;
+        color: #f44336;
+        cursor: pointer;
+
+        i {
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+    }
+}
+
+.p_image {
+    text-align: center;
+    max-width: 120px;
+    margin-right: 16px;
+    width: 25%;
+}
+
+.p_det_p {
+    width: 66.66%;
+
+    a {
+        box-shadow: none;
+        padding: 0;
+        border: none;
+        font-size: 14px;
+        text-decoration: none;
+        color: #212121;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    p {
+        color: #878787;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .price {
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 15px;
+        color: #000;
+    }
+}
+
+.custom_stepper {
+    padding: 24px 0px;
+    margin: 0 -40px;
+}
+
+.custom_step_active {
+    color: #f44336 !important;
+}
+
+.custom_step_completed {
+    color: #f44336 !important;
+}
+
+.delivery_check_points {
+    border-top: 1px solid #eee;
+    padding: 15px 0px;
+    position: relative;
+
+    &.step1:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #e0e0e0;
+        top: -9px;
+        left: 6%;
+        @media screen and (max-width:1520px) {
+            left: 4%;
+        }
+    }
+    &.step2:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #e0e0e0;
+        top: -9px;
+        left: calc(40px + 29%);
+        @media screen and (max-width:1520px){
+            left: calc(40px + 25%);
+
+        }
+    }
+    &.step3:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #e0e0e0;
+        top: -9px;
+        left: calc(40px + 57%);
+        @media screen and (max-width:1520px){
+            left: calc(40px + 55%);
+
+        }
+    }
+    &.step4:before {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #e0e0e0;
+        top: -9px;
+        left: calc(40px + 86%);
+        @media screen and (max-width:1520px){
+            left: calc(40px + 85%);
+
+        }
+    }
+
+    h6 {
+        margin: 0;
+        padding-left: 15px;
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+}
+
+.border_less {
+    width: 100%;
+
+    td {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+}
+
+.delivery_track_table {}

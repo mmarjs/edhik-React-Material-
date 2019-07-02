@@ -1,0 +1,373 @@
+/*Theme Name: Embryo
+Theme URI: http://reactshop.theironnetwork.org/
+Author: THE IRON NETWORK 
+Author URI: http://theironnetwork.org
+Description: Embryo - ReactJs Material Design eCommerce Template
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http: //www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template
+*/
+/*--------------------------------------------------------------
+ Color Typography
+   -------------------------------------------------------------
+   Background Color
+		---------------------------------------------------------
+			Primary Theme Color : #283593; (Blue)
+			Secondary Theme Color : #ff5722 (Orange)
+			Background : #f3f3f4; (Off White)
+   -------------------------------------------------------------
+   Heading Color
+		---------------------------------------------------------
+			h1 : rgba(0,0,0,0.87); (Black)
+			h2 : rgba(0,0,0,0.87); (Black)
+			h3 : rgba(0,0,0,0.87); (Black)
+			h4 : rgba(0,0,0,0.87); (Black)
+			h5 : rgba(0,0,0,0.87); (Black)
+			h6 : rgba(0,0,0,0.87); (Black)
+   --------------------------------------------------------------
+   Footer 
+      -----------------------------------------------------------
+      Footer Background : #000000; (Black)
+   --------------------------------------------------------------*/
+/*---------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+-----------------------------------------------------------------
+/*---------------------------------------------------------------
+1.0 varaiables
+-----------------------------------------------------------------*/ 
+/*--------------------------------------------------------------- 
+2.0 mixins
+    ------------------------------------------------------------
+    2.1 breakpoints
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    2.2 spacing
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    2.3 floats
+    -----------------------------------------------------------
+-----------------------------------------------------------------*/ 
+/*---------------------------------------------------------------
+3.0 core
+    ------------------------------------------------------------
+    3.1 reset
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    3.2 typography
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    3.3 common
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    3.4 button
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    3.5 form
+    -----------------------------------------------------------
+    -----------------------------------------------------------
+    3.6 slider
+    -----------------------------------------------------------
+---------------------------------------------------------------*/
+/*--------------------------------------------------------------
+4.0 utilities
+    ------------------------------------------------------------
+    4.1 display
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    4.2 flex
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    4.3 bg
+    ----------------------------------------------------------
+    ------------------------------------------------------------
+    4.4 color
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    4.5 text
+    -----------------------------------------------------------
+---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+5.0 custom
+    ------------------------------------------------------------
+    5.1 layouts
+      ------------------------------------------------------------
+      5.1.1 headers
+      -----------------------------------------------------------
+      ------------------------------------------------------------
+      5.1.2 footers
+      -----------------------------------------------------------
+      ------------------------------------------------------------
+      5.1.3 sidebar
+      -----------------------------------------------------------
+    -----------------------------------------------------------
+    ------------------------------------------------------------
+    5.2 widgets
+      ------------------------------------------------------------
+      5.2.1 widgets and inner pages
+      -----------------------------------------------------------
+    -----------------------------------------------------------
+------------------------------------------------------------*/
+/*---------------------------------------------------------------
+6.0 responsive
+---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------
+3.1 Reset
+-----------------------------------------------------------------*/ 
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+a {
+  -webkit-text-decoration-skip: objects;
+}
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  cursor: help;
+  border-bottom: 0;
+}
+
+ol,ul,dl {
+  margin-top: 0;
+  padding-left:0;
+  margin-bottom: 1rem;
+}
+
+ol ol,ul ul,ol ul,ul ol {
+  margin-bottom: 0;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+}
+
+dfn {
+  font-style: italic;
+}
+
+b,strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+}
+
+figure {
+  margin: 0 0 1rem;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
+
+th {
+  text-align: inherit;
+}
+
+
+// Basics tags
+
+html {
+  font-family: $roboto;
+  line-height: 1;
+  font-size:$html-font-size;
+}
+html,body{
+  // overflow-x: hidden !important;
+}
+
+body {
+  margin: 0;
+  padding: 0 !important;
+  position: relative;
+  min-height:100vh;
+  direction: ltr;
+}
+
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.9375rem;
+  text-transform:capitalize;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition:all 0.4s ease-in-out 0s;
+  background-color: transparent;
+}
+
+a:hover {
+  color: $active;
+}
+
+button:focus{
+  outline:none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+//---- rtl box -----
+
+.rtl-box{
+   opacity:1 !important;
+   visibility: visible !important;
+   position: fixed;
+   right: 0;
+   width: 48px;
+   height: 46px;
+   background: #283593;
+   z-index: 8;
+   top: 50%;
+   display: block;
+   text-align: center !important;
+   border-radius: 5px 0 0 5px;
+   border: 2px solid #fff;
+   border-right: 0;
+   cursor:pointer;
+   span{
+      color: #fff;
+      font-size:1rem;
+      display: inline-block;
+      text-align: center !important;
+      text-transform: uppercase;
+      pointer-events: none;
+   }
+}
+
+//Container
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width:100%;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width:576px) {
+  .container {
+    width: 540px
+  }
+}
+
+@media (min-width:767px) {
+  .container {
+    width: 720px
+  }
+}
+
+@media (min-width:960px) {
+  .container {
+    width: 920px
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    width: 960px
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    width: 1140px
+  }
+}
+
+@media (min-width:1520px) {
+  .container {
+    width: 1450px
+  }
+}
+.section-gap{
+  padding: 5rem 0;
+}

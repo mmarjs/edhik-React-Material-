@@ -1,0 +1,65 @@
+/*------------------------------------------------------------
+    3.2 typography
+-----------------------------------------------------------*/
+
+body{
+  color: $body-color;
+  font-weight:$font-weight-base;
+  font-size: $font-size-body;
+  line-height:$line-height;
+  font-family: $roboto;
+  background:$body-bg;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: $roboto;
+  font-weight:$font-weight-medium;
+}
+h1,h1 a{
+  font-size: $font-size-h1;
+  line-height:$line-height-h1;
+  color: $h1-font-color;
+}
+h2,h2 a{
+  font-size: $font-size-h2;
+  line-height:$line-height-h2;
+  color: $h2-font-color;
+}
+h3,h3 a{
+  font-size: $font-size-h3;
+  line-height:$line-height-h3;
+  color: $h3-font-color;
+}
+h4,h4 a{
+  font-size: $font-size-h4;
+  line-height:$line-height-h4;
+  color: $h4-font-color;
+}
+h5,h5 a{
+  font-size: $font-size-h5;
+  line-height:$line-height-h5;
+  color: $h5-font-color;
+}
+h6,h6 a{
+  font-size: $font-size-h6;
+  line-height:$line-height-h6;
+  color: $h6-font-color;
+}
+p{
+  font-size: $font-size-p;
+  line-height:$line-height-p;
+  color: $font-color-p;
+}
+.lead{
+  font-size: 1.25rem;
+  line-height:1.5;
+}
+a{
+  color: $primary;
+  outline: none;
+}
+
+a:hover,a:focus{
+  color: $active;
+  outline: none;
+}

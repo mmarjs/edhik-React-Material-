@@ -1,0 +1,385 @@
+/*------------------------------------------------------------
+    3.5 form
+-----------------------------------------------------------*/
+
+//-------basic form fields style--------
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+input {
+  &::placeholder {
+    text-transform: capitalize;
+  }
+  &::-ms-clear {
+    width: 0;
+    height: 0;
+  }
+}
+
+.iron-form-input-wrap {
+  > div {
+    &:after {
+      border-color: rgba($primary, 0.8);
+    }
+  }
+  > div:hover {
+    &:before {
+      border-color: rgba($primary, 0.8) !important;
+    }
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.full-name-input {
+  display: flex;
+}
+
+.iron-form-input-wrap {
+  width: 40%;
+  margin-left: 20%;
+  margin-bottom: 0.75rem !important;
+  label {
+    text-transform: capitalize !important;
+    font-size: 0.875rem !important;
+  }
+}
+
+.input-name {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.iron-select-width1,
+.iron-select-width,
+.iron-select-width2 {
+  text-transform: capitalize;
+}
+.iron-select-width1 {
+  width: 80px;
+}
+.iron-select-width {
+  width: 100%;
+}
+.iron-select-width2 {
+  width: 6.875rem;
+}
+.product-values {
+  .iron-select-width2 {
+    padding-right: 20px;
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 1.25rem;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+//-------payment section coupon form style-------
+.iron-coupon-form {
+  width: 15.625rem;
+  margin: 0 auto;
+  .button {
+    padding: 0 5px !important;
+    min-width: auto;
+    background-color: transparent !important;
+    box-shadow: none;
+  }
+  label {
+    text-transform: capitalize;
+    font-size: 0.875rem;
+  }
+}
+
+//-------shop page widgets style----------
+.iron-shop-wrapper {
+  .ais-Panel-header {
+    border: none;
+  }
+  .ais-RefinementList-list,
+  .ais-NumericMenu-list {
+    li {
+      label {
+        margin: 0;
+        padding: 0.5rem;
+        display: flex;
+        display: -ms-flexbox;
+        align-items: center;
+        -ms-flex-align: center;
+        cursor: pointer;
+        input {
+          margin-right: 0.625rem;
+          height: 1rem;
+          width: 1rem;
+          cursor: pointer;
+        }
+        .ais-RefinementList-labelText {
+          padding-right: 0.5rem;
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+  .ais-ClearRefinements-button {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+  }
+  .ais-MenuSelect-select,
+  .ais-SortBy-select {
+    width: 100%;
+    background-image: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5625rem 0.5rem 0.9375rem;
+  }
+  .iron-filters-wrapper {
+    .ais-RangeInput-input {
+      width: 4rem;
+    }
+  }
+  .app-selectbox,
+  .app-selectbox-sm {
+    border: 1px solid none;
+    width: 30%;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.08);
+    &:before {
+      content: "";
+      position: absolute;
+      pointer-events: none;
+      top: 50%;
+      margin-top: -0.09em;
+      right: 15px;
+      width: 0;
+      height: 0;
+      border: 0.3em solid transparent;
+      border-top-color: #464d69;
+    }
+  }
+  .ie10 .app-selectbox,
+  .ie10 .app-selectbox-sm {
+    &:before {
+      display: none;
+    }
+  }
+  .ais-Hits-list .ais-Hits-item {
+    border: none;
+    box-shadow: none;
+    margin: 0 0 1.875rem 0;
+    padding: 0 0.9375rem;
+    display: grid;
+  }
+  .ais-Hits-item {
+    .iron-product-item {
+      .iron-overlay-wrap {
+        .iron-overlay-content {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+        .iron-overlay-holder {
+          padding: 0.625rem;
+          button {
+            i {
+              color: rgba(0, 0, 0, 0.4);
+            }
+            &:hover {
+              background-color: transparent;
+            }
+            span {
+              &:last-child {
+                display: none;
+              }
+            }
+          }
+          button.active {
+            i {
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//---------filter style------------
+
+.ais-SearchBox-form {
+  input {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    &::placeholder {
+      color: rgba($dark, 0.5);
+    }
+  }
+  .ais-SearchBox-submitIcon {
+    display: none;
+  }
+}
+.ais-Stats-text {
+  color: $dark;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.ais-NumericMenu-labelText {
+  color: $dark;
+  font-weight: 500;
+}
+.ais-RefinementList-count {
+  color: $base;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+.ais-RefinementList-labelText {
+  color: $dark;
+  font-weight: 500;
+}
+.ais-Panel-header {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: $dark;
+}
+.ais-RangeInput-submit {
+  color: $base;
+  font-weight: 500;
+  padding: 0 0.9375rem;
+  background-color: $active;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  height: 2rem;
+  margin-left: 0.9375rem;
+  &:hover {
+    background-color: $primary;
+  }
+}
+.ais-RangeInput-input {
+  border: 0;
+  height: 2rem;
+  border-bottom: 1px solid $secondary;
+  &:focus {
+    outline: 0;
+  }
+}
+input {
+  &::placeholder {
+    color: rgba($dark, 0.5) !important;
+  }
+}
+.ais-RangeInput-separator {
+  margin: 0 0.8rem;
+  font-size: 1.25rem;
+}
+.ais-RatingMenu-list {
+  .ais-RatingMenu-item {
+    margin-bottom: 1rem;
+  }
+  .ais-RatingMenu-starIcon {
+    fill: #ff5722;
+    width: 25px;
+    height: 25px;
+  }
+  .ais-RatingMenu-count {
+    color: $base;
+    font-weight: 500;
+    padding: 0.1rem 0.4rem;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    font-size: 0.8rem;
+    &:after,
+    &:before {
+      display: none;
+    }
+  }
+}
+.ais-ClearRefinements-button,
+.ais-CurrentRefinements-reset,
+.ais-GeoSearch-redo,
+.ais-GeoSearch-reset,
+.ais-HierarchicalMenu-showMore,
+.ais-InfiniteHits-loadMore,
+.ais-InfiniteResults-loadMore,
+.ais-Menu-showMore,
+.ais-RefinementList-showMore {
+  background-color: $active;
+  opacity: 1;
+  position: relative;
+  &:hover {
+    background-color: $active;
+  }
+}
+
+.ais-RefinementList-checkbox,
+.ais-NumericMenu-radio {
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 87, 34, 0.8);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(0) translate(-50);
+    transform-origin: 50% 50%;
+  }
+  &:focus:not(:active)::after {
+    animation: ripple 0.6s ease-out;
+  }
+}
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(0.5, 0.5);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1, 1);
+  }
+}
+
+@media (min-width: 1550px) {
+  .iron-shop-wrapper .ais-Hits .ais-Hits-list .ais-Hits-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 960px) {
+  .form-margin {
+    margin-left: -40px;
+  }
+}

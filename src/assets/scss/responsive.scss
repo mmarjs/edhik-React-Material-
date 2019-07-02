@@ -1,0 +1,931 @@
+/*---------------------------------------------------------------
+6.0 responsive
+---------------------------------------------------------------*/
+
+@media (max-width:1700px){
+    .iron-banner-slider-v2 {
+        .iron-post-item{ 
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder{
+                        padding-left:40px;
+                        .text-main {
+                            font-size: 2.813rem;
+                            line-height: 60px;
+                        }
+                        .text-bold{
+                            font-size: 4.313rem;
+                            line-height: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1549px){
+    .iron-shop-wrapper .ais-Hits .ais-Hits-list .ais-Hits-item {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .iron-banner-slider-v2 {
+        .iron-post-item{ 
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder{
+                        padding-left:35px;
+                        .text-main {
+                            font-size: 2rem;
+                            line-height: 36px;
+                        }
+                        .text-bold{
+                            font-size: 4rem;
+                            line-height: 64px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1520px){
+    .iron-best-deal-wrap{
+        >div{
+            >div{
+                &:last-child{
+                    padding-left: 15px !important;
+                }
+            }
+        }
+    }
+    .iron-banner-slider-v3{
+        .iron-post-item{
+            .iron-overlay-content{
+                h4{
+                    font-size: 70px;
+                    line-height: 78px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1399px){
+    .iron-banner-slider-v2 {
+        .slick-slide{
+            padding-bottom:28px;
+        }
+    }
+}
+@media (max-width:1279px){
+    .search-form-v2 {
+        width: 70%;
+        margin-left:auto;
+        //margin-right:auto;
+    }
+    .iron-shop-wrapper .ais-Hits .ais-Hits-list .ais-Hits-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .iron-banner-wrapper{
+        .iron-aside-banner{
+            display: inline-block;
+            margin: 0 15px;
+            width: calc(100% / 2 - 15px);
+            img{
+                width:100%;
+            }
+            &:first-child{
+                margin-left:0;
+            }
+            &:last-child{
+                margin-right:0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1279px) and (min-width:960px){
+    .iron-sales-grid-wrap{
+        .pink-rgba ,.primary-rgba {
+            h2{
+                font-size: 3rem;
+            }
+            h5{
+                letter-spacing: 1px;
+            }
+        }
+        .black-rgba{
+            h6 {
+                letter-spacing: 2px;
+            }
+            h2 {
+                font-size: 3rem;
+            }
+            h5 {
+                letter-spacing: 2px;
+            }
+        } 
+    }    
+}
+
+@media only screen and (min-width: 1200px){
+    .iron-header-v1{
+        .iron-sidebar-nav-wrap{
+            display:none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .iron-header-wrapper{
+        .iron-fixed-header{
+            .iron-sidebar-nav-wrap{
+                text-align: right !important;
+            }
+        }
+    }
+    .iron-header-v1{
+        .horizontal-menu{
+            display:none;
+        }
+    }
+    .iron-header-v2{
+        .iron-header-bottom{
+            background-color: $primary;
+        }
+        .horizontal-menu,.search-form-v2{
+            display:none;
+        }
+        .iron-sidebar-nav-wrap,.iron-search-box{
+            display: block;
+        }
+        .iron-sidebar-nav-wrap{
+            padding:5px 0 !important;
+        }
+        .iron-search-box {
+            .search-icon{
+                bottom: 11px;
+                height: 2.5rem;
+                width: 2.5rem;
+                padding: 9px;
+            }
+        }
+    }
+    .iron-header-v3{
+        .iron-header-top,.horizontal-menu,
+        .search-form-v3{
+            display:none;
+        }
+        .iron-sidebar-nav-wrap,.iron-search-box{
+            display: block;
+        }
+        .iron-search-box {
+            .search-icon{
+                bottom: 12px;
+                height: 2.5rem;
+                width: 2.5rem;
+            }
+        }
+    }
+    .nav-menu-icon{
+        width:auto !important;
+        cursor:pointer;
+        span{
+            color:$base;
+        }
+        &:hover{
+            background-color: transparent !important;
+        }
+    }
+    .iron-shop-wrapper{
+        .app-selectbox, .app-selectbox-sm {
+            width: 40%;
+        }    
+    }
+    .iron-about-page-wrap {
+        .about-info {
+            h2 {
+                font-size: 2.8rem;
+            }
+        }
+        .about-contact-form{
+            .about-contact-bg{
+                padding: 21.5rem 0;
+            }
+        }
+        .about-contact-form {
+            .about-contact-form-inner {
+                padding: 5rem;
+            }
+        }
+    }
+    
+    .iron-review-dialog {
+        .iron-user-list-wrap{
+            padding: 0.9375rem;
+        }
+    }
+    .iron-tab-bar{
+        .button-scroll-hide{
+            >div:nth-child(2){
+                >div:nth-child(1),>div:nth-child(3){
+                    display:inherit;
+                }
+            }
+        }
+    }
+    .iron-top-products-wrapper.section-pad,
+    .iron-partener-wrapper.section-pad{
+        padding: 3.5rem 0;
+    }
+    .iron-banner-slider-v3{
+        .iron-post-item{
+            .iron-overlay-content{
+                h4{
+                    font-size: 50px;
+                    line-height: 58px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:959px){
+    .iron-sticky-header{
+        top: 0;
+        left: auto;
+        right: 0;
+        position: sticky;
+    }
+    .iron-header-v1{
+        .iron-search-box {
+            .search-icon {
+                bottom:0.6875rem;
+                height: 2.8125rem;
+                width: 2.8125rem;
+            }
+        }
+        .iron-res-menu-wrap{
+         display: flex;
+         display: -ms-flexbox;
+         justify-content: space-between;
+         -ms-flex-pack: justify;
+         align-items: center;
+         -ms-flex-align: center;
+        }
+    }
+    
+    .slider-style{
+        margin-left: -14px;
+    }
+    .iron-banner-slider {
+        .iron-post-item{
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder {
+                        width: 50%;
+                        h1 {
+                            font-size: 3.125rem;
+                            line-height: 1;
+                        }
+                    }
+                }
+            }
+        }     
+    }
+    .iron-features-v2{
+       .iron-col{
+          &:last-child{
+             margin-bottom: 0 !important;
+          }
+       }
+    }
+    .testimonial-v1{
+        .iron-testimonial-item{
+            .user-text{
+                padding: 0.9375rem 0.9375rem 1.875rem;
+            }
+            .user-content{
+                padding-left: 1rem;
+            }
+            &:hover{
+                .user-thumb{
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+    .iron-about-page-wrap {
+        .about-contact-form{
+            .about-contact-bg{
+                padding: 15rem 0;
+            }
+            .about-contact-form-inner {
+                padding: 3.125rem;
+            }
+        }
+        .about-info,.about-alt-section{
+            img{
+                width:100%;
+            }
+        }
+    }
+    .iron-sign-in-page-wrap .sign-in-image,
+    .iron-sign-up-page-wrap .register-image,
+    .iron-forgot-pwd-page .forgot-password-image {
+       display:none;
+    }
+    .iron-thank-you-page-wrap{
+        .thank-you-card {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+    .iron-cart-wrapper {
+        .rct-card-wrap {
+            overflow-x: scroll;
+        }    
+    }
+    .iron-banner-slider-v3{
+        .iron-post-item{
+            .iron-overlay-content{
+                h4{
+                    font-size: 40px;
+                    line-height: 41px;
+                }
+            }
+        }
+    }
+    .iron-shop-category-wrap.section-pad{
+        padding-bottom: 3.125rem !important;
+    }
+    .iron-features-v2{
+        .iron-feature-icon{
+            width: 55px;
+            span{
+                height:55px;
+                width:55px;
+                margin-top: 0;
+                i{
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        .iron-features-content{
+            h4{
+                font-size: 1.25rem;
+            }
+        }
+    }
+    .cta-banner-wrap{
+        padding: 90px 0; 
+        .cta-content {
+            h2 {
+                font-size: 38px;
+                line-height: 39px;
+            }
+        }
+    }
+    .iron-dwnld-app-wrapper {
+        .download-item:first-child {
+            border-right: none;
+        }
+    }
+    .edit-window-thumb{
+        display:none;
+    }
+}
+
+@media (max-width:767px){
+    .iron-banner-slider {
+        .iron-post-item{
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder {
+                        h2{
+                            font-size: 2.1875rem;
+                            line-height: 1;
+                        }
+                        h1 {
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+    .subscribe-form {
+        width: 100%;
+    }  
+    .iron-banner-slider-v3{
+        .iron-post-item{
+            .iron-overlay-content{
+                .iron-overlay-holder {
+                    width:90%;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-bottom: .5rem !important;
+                }
+                h4{
+                    font-size: 30px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+    .iron-collection-gallery-wrap.section-pad{
+        padding-top: 3.125rem ;
+    }
+    .iron-home-v3-wrap{
+        .iron-sec-heading-wrap{
+           h3{
+               font-size:2rem;
+           }
+        }
+    }
+    .cta-banner-wrap{ 
+        .cta-content {
+            h4 {
+               display: none;
+            }
+        }
+    }
+}
+
+@media (max-width:599px){
+    .iron-header-wrapper{
+        .iron-app-logo img{
+            width:90%;
+        }
+    }
+    .section-pad {
+        padding: 4.375rem 0;
+    }
+    .iron-aside-banner-wrap{
+        .iron-aside-banner{
+            &:first-child{
+                margin-bottom: 1.875rem;
+            }
+            &:first-child,&:last-child{
+                margin-right: 0;
+                margin-left:0;
+            }
+        }
+    }
+    .iron-banner-slider {
+        .iron-post-item{
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder {
+                        h2{
+                            font-size: 1.875rem;
+                            margin-bottom: 0.3125rem;
+                        }
+                        h1 {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }     
+    }
+    .iron-aside-banner-wrap{
+        .iron-aside-banner{
+            margin:0;
+            width:100%;
+        }
+    }
+    .iron-features-v1{
+        .iron-col{
+            &:first-child,&:nth-child(2){
+                border-right:none;
+            }
+        }
+    }
+    .iron-countdown-timer{
+        .counter-item {
+            margin-right: 0.5rem;
+            .counter-text {
+                font-size: 1rem;
+                margin:0;
+                margin-left:2px;
+            }
+            .counter-digit {
+                font-size: 1.75rem;
+            }        
+        }
+    }
+    .iron-shop-wrapper{
+        .ais-Hits{
+            .ais-Hits-list{
+                .ais-Hits-item {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+            } 
+        } 
+        .app-selectbox, .app-selectbox-sm {
+            width: 100%;
+        } 
+    }
+    .iron-about-page-wrap {
+        .about-contact-form{
+            .about-contact-bg{
+                padding: 10rem 0;
+            }
+        }
+        .about-contact-form {
+            .about-contact-form-inner {
+                padding: 3.125rem 0.9375rem;
+            }
+        }
+    }
+    .iron-accordion-wrap,.iron-payment-accordion{
+        .iron-accordion-title,.iron-accordion-desc,
+        .payment-title,.payment-detail{
+            padding-left: 0.9375rem;
+            padding-right:0.9375rem;
+        }
+    }
+    .blog-img-wrapper{
+        h2{
+            font-size:1.5rem;
+        }
+    }
+    .iron-blog-page-wrap{
+        .iron-author-wrap{
+            .author-thumb{
+                width: 8rem;
+                height: 8rem;
+            }
+        }
+        .commented-wrapper{
+            .user-thumb{
+                width:6.25rem;
+                height:6.25rem;
+            }
+        }
+    }
+    .rct-card-wrap {
+        padding: 1.5625rem 0.9375rem;
+    }
+    .iron-review-dialog > div:nth-child(2) {
+        >div{
+         max-width: 95vw !important;
+         margin: 1.875rem;
+        }
+    }
+    .iron-product-slider {
+        .slick-slider{
+            .slick-dots{
+                padding-top: 10px;
+            }
+        }
+    }
+    .iron-cta-v2-wrapper,.iron-top-products-wrapper{
+        .iron-sec-heading-wrap{
+            .text-14{
+                font-size:15px;
+            }
+        }
+    } 
+    .iron-top-products-wrapper.section-pad,
+    .iron-partener-wrapper.section-pad{
+        padding: 2.5rem 0;
+    }
+    .iron-top-products-wrapper{
+        .transparent-btn{
+            padding: 0.5rem !important;
+            margin-bottom:1.75rem !important;
+            span{
+                font-size: 0.75rem;
+            }
+        }
+    }
+    .iron-home-v3-wrap{
+        .section-pad{
+            padding:4rem 0;
+        }
+    }
+    .iron-shop-category-wrap.section-pad{
+        padding-bottom: 2.5rem !important;
+    }
+    .iron-product-slider-v2-wrap {
+        .iron-tab-btn{
+            margin-right:0 !important;
+            padding: 0.5rem 0.75rem ;
+            min-height:auto;
+            >span:first-child{
+                font-size: 0.75rem;
+                font-weight:400;
+            }
+        }
+    }
+}
+
+@media (max-width:575px){
+    .iron-search-box {
+        .search-form {
+          input{
+            font-size:1.3rem;
+          }
+        }
+    }
+    .active-search-form{
+        left:-15px;
+        right:-15px;
+    }
+    .iron-custom-tab-container{
+        .iron-tab-btn{
+            margin-bottom: 10px;
+        }
+    }
+    .iron-pagination-wrap .ais-Pagination-link {
+        height: 30px;
+        width: 25px;
+    }
+    .iron-banner-slider-v2 {
+        .iron-post-item{ 
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder{
+                        .text-bold{
+                            font-size: 1.7rem;
+                            line-height: 20px;
+                        }
+                        .bold-sup {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:480px){
+    .cta-banner-wrap{
+        .cta-content {
+            p{
+                margin-bottom:5px !important;
+            }
+            i{
+                font-size:1.5rem;
+            }
+            h2 {
+                font-size: 22px;
+                line-height: 22px;
+            }
+            .btn-base{
+                min-height:auto;
+                span{
+                    font-size: 0.75rem;
+                } 
+            }
+        }
+    }
+}
+
+@media (max-width:460px){
+    .iron-banner-slider-v3{
+        .iron-post-item{
+            .iron-overlay-content{
+                p {
+                    display:none;
+                }
+                h4{
+                    font-size: 22px;
+                    line-height: 22px;
+                    letter-spacing: 0;
+                    margin-bottom: 15px !important;
+                }
+                .btn-base{
+                    min-height:auto;
+                    span{
+                        font-size: 0.75rem;
+                    } 
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:440px){
+    .iron-banner-slider-v2 {
+        .iron-post-item{ 
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder{
+                        padding-left:20px;
+                        .text-bold,.text-main{
+                            display:none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:413px){
+    .iron-banner-slider {
+        .iron-post-item{
+            .iron-overlay-wrap{
+                .iron-overlay-content{
+                    .iron-overlay-holder {
+                        padding-right:0.625rem;
+                        h2{
+                            font-size: 1.125rem;
+                        }
+                        h1 {
+                            font-size: 1.25rem;
+                        }
+                        .button{
+                            padding: 0px 0.625rem !important;
+                            min-height: 1.6875rem;
+                            span{
+                                font-size: 0.75rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .slick-dots{
+            bottom:0.9375rem;
+        }         
+    }
+    .iron-sales-grid-wrap{
+        .pink-rgba ,.primary-rgba {
+            h2{
+                font-size: 3rem;
+            }
+            h5{
+                letter-spacing: 1px;
+            }
+        }
+        .black-rgba{
+            h6 {
+                letter-spacing: 2px;
+            }
+            h2 {
+                font-size: 3rem;
+            }
+            h5 {
+                letter-spacing: 2px;
+            }
+        } 
+    }
+    .iron-post-item,.iron-product-item {
+        .iron-btn-grp{
+            top: -1.5625rem;
+            .btn-wrap {
+                height: 2.8125rem;
+                width: 2.8125rem;
+            }
+        }  
+    } 
+    .iron-view-cart-sidebar{
+        // width:280px;
+    }   
+    .page-title-bar{
+        padding: 5rem 0;
+        h1{
+            font-size:3rem;
+        }
+    } 
+    .product-values{
+        .iron-select-width2{
+            padding-right:0;
+            width: calc(100%);
+        }
+    }    
+}
+
+@media (max-width:374px){
+    .iron-header-v1,.iron-header-v2{
+        .icon-btn{
+            width:1.875rem !important;
+            height:1.875rem !important;
+            i{
+                font-size:1.125rem;
+            }
+        }
+        .iron-search-box{
+            .search-form {
+                padding: 0 0.625rem !important;
+                input{
+                    width: 13.375rem;
+                }
+            }
+        } 
+        .badge-active{
+            span {
+                width: 1rem;
+                height: 1rem;
+                min-width: 1rem;
+                min-height: 1rem;
+                font-size: 0.625rem;
+                top: -5px;
+                right: -5px;
+            }
+        } 
+    }
+    
+    .slider-style {
+        margin: 0;
+        .slick-slide{
+            > div{
+                padding: 0 2px;
+            }
+        } 
+    }
+    .iron-banner-slider-v2.slider-style {
+        .slick-slide{
+            > div{
+                padding: 0 15px;
+            }
+        } 
+    } 
+    
+    .iron-review-dialog > div:nth-child(2) {
+        >div{
+         margin: 1.25rem;
+        }
+    }  
+    .rccs {
+        width: 15.625rem;
+        .rccs__card {
+
+            height: 9.625rem;
+            width: 15.625rem;
+        
+        } 
+    } 
+    .iron-cta-v2-wrapper,.iron-top-products-wrapper{
+        .shop-card-gap{
+            padding-left:20px !important;
+            padding-right:20px !important;
+        }
+        .iron-shop-item,.iron-product-item{
+            padding:20px !important;
+        }
+    } 
+    .cta-banner-wrap{
+        .cta-content {
+            p{
+                display: none;
+            }
+        }
+    }
+    .iron-user-info-wrap{
+        .user-basic-info {
+            .profile-field {
+                margin-bottom: 12px !important;
+                span{
+                    font-size: 13px;
+                    &:first-child{
+                        width:130px;
+                    }
+                }
+            }
+        }
+    }
+}
+//----- IE hack-------
+@media all and (-ms-high-contrast:none){
+   .iron-cart-list-wrap,.iron-wish-list-wrap {
+      .cart-menu-item {
+        .cart-thumb {
+          img{
+             width:100%;
+          }
+        }
+        
+      }
+    }
+    .center-holder{
+        justify-content:flex-start !important;
+    }
+    .app-selectbox, .app-selectbox-sm { 
+        &:before{
+           display:none;
+        }
+    }
+    .iron-about-page-wrap{
+        .about-contact-form{
+            .about-contact-bg{
+                padding: 25rem 0;
+            }
+        }
+    }  
+    .iron-sign-up-page-wrap{
+      .iron-form-input-wrap{
+         margin-bottom: 0 !important;
+      }
+    }          
+}

@@ -1,0 +1,19 @@
+//------- fixed header ---------
+.header-fixed .iron-fixed-header {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.iron-fixed-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s ease-in-out 0s;
+	-webkit-transform: translateY(-100%);
+    transform: translateY(-100%);   
+}

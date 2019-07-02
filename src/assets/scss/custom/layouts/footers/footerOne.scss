@@ -1,0 +1,84 @@
+/*------------------------------------------------------------
+  5.1.2 footer
+-----------------------------------------------------------*/
+// Footer one style
+
+.iron-footer-v2{
+  // position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  .iron-footer-top{
+    background-color: $black;
+    padding-top:3.75rem;
+  }
+  .footer-hr{
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  *{
+    color:$base;
+  }
+  .footer-widget-title{
+      h6{
+        font-weight: $font-weight-base;
+        text-transform: uppercase;
+      }
+  }
+  .iron-footer-menu-list{
+    padding: 0;
+      .list-item{
+          padding: 0 0 0.3125rem 0;
+          margin-bottom: 0.625rem;
+          span{
+            color:#fff;
+            text-transform: capitalize;
+            font-size:0.875rem;
+          }
+      }
+  }
+  .iron-footer-bottom{
+    padding: 2.1875rem 0;
+    background-color: $black;
+  }
+}
+.iron-footer-v1{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  .iron-footer-top{
+    background-color: $black;
+    padding-top:3.75rem;
+  }
+  .footer-hr{
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  *{
+    color:$base;
+  }
+  .footer-widget-title{
+      h6{
+        font-weight: $font-weight-base;
+        text-transform: uppercase;
+      }
+  }
+  .iron-footer-menu-list{
+    padding: 0;
+      .list-item{
+          padding: 0 0 0.3125rem 0;
+          margin-bottom: 0.625rem;
+          span{
+            color:#fff;
+            text-transform: capitalize;
+            font-size:0.875rem;
+          }
+      }
+  }
+  .iron-footer-bottom{
+    padding: 2.1875rem 0;
+    background-color: $black;
+  }
+}

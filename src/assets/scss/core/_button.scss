@@ -1,0 +1,106 @@
+/*------------------------------------------------------------
+    3.4 button
+-----------------------------------------------------------*/
+
+button:focus{
+  outline:none;
+}
+
+// base button style
+.button{
+  padding:0.5rem 1rem !important;
+  border:none !important;
+  //border-radius: 2px !important;
+  background-color:#E0E0E0 !important;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),
+   0 2px 2px 0 rgba(0,0,0,.14),
+    0 1px 5px 0 rgba(0,0,0,.12);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  span{
+    color:$black;
+    font-family:inherit;
+    font-size: 0.875rem;
+    font-weight:$font-weight-medium;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+  }
+}
+
+//active button style
+.btn-active{
+  color:$base;
+  background-color: $active !important;
+  span{
+    color:$base;
+  }
+}
+
+//button with white background
+.btn-base{
+  color:$black;
+  background-color: $base !important;
+  span{
+    color:$black;
+    font-weight:$font-weight-medium;
+  }
+}
+
+//large button size
+.btn-lg{
+  min-width: 10rem !important;
+  border-radius: 2px !important;
+  min-height: 3.125rem !important;
+  span{
+    &:first-child{
+      line-height: 2.3;
+    }
+  }
+}
+
+//cart popup button style
+.cart-button{
+  font-size: 0.75rem;
+  letter-spacing:0;
+}
+
+// badge style
+.badge-active{
+    span{
+      min-width: 1.375rem;
+      min-height:1.375rem;
+      width: 1.375rem;
+      height:1.375rem;
+      font-size: 0.75rem;
+      font-weight:700;
+      color:$base;
+      background-color:$active;
+      line-height: 1;
+      top: -8px;
+      right: -8px;
+    }
+}
+
+.transparent-btn{
+  border: 2px solid #d8d8d8 !important;
+  background-color:transparent !important;
+  display: block !important;
+  padding: .8rem !important;
+  margin-bottom: 2.5rem !important;
+  width:100%;
+  box-shadow:none !important;
+  cursor: pointer;
+  span{
+    text-align: center;
+    font-weight: 700;
+    color: rgba(0,0,0,.54) !important;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    font-size:0.875rem;
+  }
+}
+.wishlist-active{
+  span i{
+    color:$dark !important;
+  }
+}

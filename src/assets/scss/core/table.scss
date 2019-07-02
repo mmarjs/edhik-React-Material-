@@ -1,0 +1,29 @@
+//------ table --------
+
+.iron-table-wrapper{
+    width: 100%;
+    overflow-x: auto;
+}
+.iron-table-wrap{
+    min-width:700px;
+    .iron-th,.iron-td{
+        padding:0;
+        text-transform: capitalize;
+    }
+    .iron-th{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .iron-td{
+        font-size: 14px;
+        font-weight: 400;
+        i{
+            color:$active;
+        }
+    }
+    tr{
+        .iron-th:first-child,.iron-td:first-child{
+            padding-left:24px;
+        }
+    }
+}
