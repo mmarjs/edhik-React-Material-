@@ -41,7 +41,7 @@
     "html-webpack-plugin": "2.29.0",
     "instantsearch.css": "^7.1.0",
     "jest": "20.0.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jsonwebtoken": "^8.5.1",
     "material-ui-pickers": "^2.2.4",
     "mini-css-extract-plugin": "^0.4.4",
