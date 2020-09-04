@@ -45,7 +45,7 @@
     "jsonwebtoken": "^8.5.1",
     "material-ui-pickers": "^2.2.4",
     "mini-css-extract-plugin": "^0.4.4",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
@@ -99,7 +99,7 @@
     "babel-register": "^6.26.0",
     "cross-env": "^5.2.0",
     "mini-css-extract-plugin": "^0.4.4",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.1.0"
   },
   "jest": {
