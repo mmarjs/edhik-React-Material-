@@ -42,7 +42,7 @@
     "instantsearch.css": "^7.1.0",
     "jest": "20.0.4",
     "jquery": "^3.3.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "material-ui-pickers": "^2.2.4",
     "mini-css-extract-plugin": "^0.4.4",
     "node-sass": "^4.9.3",
